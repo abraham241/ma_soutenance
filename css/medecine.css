@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+
+body{
+    background-image: url(/Image/Doc_num3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+ }
+
+.col-lg-6 {
+    color: white;
+    margin-top: 35px;
+ }
+
+.btn-primary{
+    width: 450px;
+}
+
+.btn-secondary{
+    width: 450px;
+    color: white;
+}
+
+a{
+    color: rgb(155, 62, 62);
+    list-style-type: none;
+}

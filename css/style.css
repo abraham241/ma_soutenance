@@ -1,0 +1,62 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+   background-image: url(/Image/Doc_numérique1.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+h1 {
+  color: blue;
+}
+
+.texte_left{
+  color: white;
+}
+
+.texte_droit{
+  color: white;
+}
+
+.col-md-7{
+  margin-top: 90px;
+}
+
+label{
+  color: white;
+}
+
+input[type="radio"]{
+  margin-top: 29px;
+}
+
+small{
+  color: white;
+}
+
+.col-md-5{
+  margin-top: 80px;
+  box-shadow: -1px 1px 60px 10px ;
+  background: rgb(0,0,0,0.4);
+  height: 490px;
+}
+
+.btn-info{
+  margin-top: 10px;
+  font-size: 18px;
+  width: 120px;
+  margin-left: 80px;
+  color: white;
+}
+
+.control-label{
+  margin-top: 25px;
+}
+
+.form-control{
+  margin-top: 15px;
+}
+
