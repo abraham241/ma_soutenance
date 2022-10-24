@@ -1,0 +1,21 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .car-body h6 a {
+    text-decoration: none;
+  }
+
+  .col-lg-6 {
+    color: rgb(31, 27, 27);
+    margin-top: 35px;
+  }
+
+  .car-body{
+    margin: 15px 5px 20px 15px;
+  }
+
+  .col-lg-4{
+    margin-top: 50px;
+  }
