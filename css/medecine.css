@@ -1,18 +1,57 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+  }
+
+  .w-100 h1 {
+    color: rgb(7, 84, 252);
+    text-transform: uppercase;
+    background: rgb(165, 208, 236);
+    height: 75px;
+    text-align: center;
+  }
+
+  .w-100{
+    margin-top: 50px;
+  }
+
+  .w-100 span::before{
+    content: "Une sage femme.";
+    animation: aaa 15s infinite;
+    color: red;
+  }
+
+  @keyframes aaa{
+    0%{
+        content: "Un Pediatre";
+    }
+
+    25%{
+        content: "Un Génicologue";
+    }
+
+    50%{
+        content: "Une Ophtamologue";
+    }
+
+    75%{
+        content: "Une Oxilaire de vie";
+    }
   }
 
 body{
-    background-image: url(/Image/Doc_num3.jpg);
+    background-image: url(Image/abraham.jpg);
     background-size: cover;
     background-attachment: fixed;
+    /* background: 131416; */
  }
 
 .col-lg-6 {
-    color: white;
+    color: rgb(2, 2, 2);
     margin-top: 35px;
- }
+    
+}
 
 .btn-primary{
     width: 450px;

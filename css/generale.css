@@ -24,3 +24,7 @@ body{
 .car-body{
   margin: 15px 5px 20px 15px;
 }
+
+ul li{
+  list-style-type: none;
+}
