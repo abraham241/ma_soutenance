@@ -24,3 +24,8 @@ body{
 .car-body{
   margin: 15px 5px 20px 15px;
 }
+
+.text-center{
+  /* padding-top: 50px; */
+  margin-top: 50px;
+}

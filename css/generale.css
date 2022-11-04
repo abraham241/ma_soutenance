@@ -28,3 +28,8 @@ body{
 ul li{
   list-style-type: none;
 }
+
+.text-center{
+  /* padding-top: 50px; */
+  margin-top: 80px;
+}

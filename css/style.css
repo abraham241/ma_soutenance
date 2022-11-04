@@ -75,3 +75,11 @@ small{
   /* padding-top: 50px; */
   margin-top: 50px;
 }
+
+.col-lg-6{
+  margin-top: 25px;
+}
+
+.car-body{
+  margin: 15px 5px 20px 15px;
+}
