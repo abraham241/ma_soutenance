@@ -5,13 +5,23 @@
 
 body{
    /* background-image: url(/Image/Doc_numérique1.jpg); */
-   background-color: rgb(142, 223, 223);
+   background-color: rgb(93, 212, 233);
    background-size: cover;
    background-attachment: fixed;
+   overflow-x: hidden;
 }
 
 h1 {
-  color: blue;
+  color: rgb(46, 0, 252);
+}
+
+
+h2 { 
+  color: rgb(0, 17, 255);
+}
+
+h5 { 
+  color: rgb(0, 17, 255);
 }
 
 .texte_left{

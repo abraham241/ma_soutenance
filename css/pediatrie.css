@@ -3,19 +3,32 @@
     padding: 0px;
   }
 
-  .car-body h6 a {
+  /* .car-body h6 a {
     text-decoration: none;
+  } */
+
+  .col-lg-12{
+    margin-top: 50px;
   }
+  
 
   .col-lg-6 {
     color: rgb(31, 27, 27);
     margin-top: 35px;
   }
-
+  .card-titel{
+    margin-left: 5px;
+  }
+  
   .car-body{
     margin: 15px 5px 20px 15px;
   }
-
-  .col-lg-4{
-    margin-top: 50px;
+  
+  ul li{
+    list-style-type: none;
+  }
+  
+  .text-center{
+    /* padding-top: 50px; */
+    margin-top: 80px;
   }

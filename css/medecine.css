@@ -5,9 +5,9 @@
   }
 
   .w-100 h1 {
-    color: rgb(7, 84, 252);
+    color: rgb(255, 255, 255);
     text-transform: uppercase;
-    background: rgb(165, 208, 236);
+    background: rgb(37, 36, 36);
     height: 75px;
     text-align: center;
   }
@@ -65,4 +65,9 @@ body{
 a{
     color: rgb(155, 62, 62);
     list-style-type: none;
+}
+
+.text-center{
+  /* padding-top: 50px; */
+  margin-top: 80px;
 }

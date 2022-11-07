@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>connexion</title>
+    <title>formdoc</title>
+
     <!-- bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <!-- fin de bootstrap -->
 
     <!-- mon css  -->
-    <link rel="stylesheet" href="css/connexion.css">
+    <link rel="stylesheet" href="css/formdoc.css">
     <!-- fin de mon css  -->
-
 
 </head>
 <body>
+    
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
@@ -38,7 +39,7 @@
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                       <li><a class="dropdown-item" href="http://127.0.0.1:5500/ma_soutenance/medecine.html">Médecine</a></li>
                       <li><a class="dropdown-item" href="http://127.0.0.1:5500/ma_soutenance/pharmacie.html">Pharmacie</a></li>
-                      <li><a class="dropdown-item" href="#">Assurance Numérique</a></li>
+                      <li><a class="dropdown-item" href="#">Assurance numerique</a></li>
                       <!-- <li><hr class="dropdown-divider"></li>
                       <li><a class="dropdown-item" href="#">Something else here</a></li> -->
                     </ul>
@@ -69,19 +70,22 @@
             </div>
           </nav>
     </header>
-  
 
 
     <section class="vh-100">
         <div class="container-fluid h-custom">
           <div class="row d-flex justify-content-center align-items-center h-100">
             <div class="col-md-9 col-lg-6 col-xl-5">
-              <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
-                class="img-fluid" alt="Sample image">
+                <!-- image à changer -->
+              <img src="Image/Doc_num2.jpg"
+                class="img-fluid" >
+                <p>
+                    <h3>Dr Kevine MAPAGA</h3>
+                </p>
             </div>
             <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
               <form>
-                <div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
+                <!-- <div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
                   <p class="lead fw-normal mb-0 me-3">Se connecter avec:</p>
                   <button type="button" class="btn btn-primary btn-floating mx-1">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-google" viewBox="0 0 16 16">
@@ -94,42 +98,64 @@
                         <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
                       </svg>
                   </button>
-                </div>
+                </div> -->
       
                 <div class="divider d-flex align-items-center my-4">
-                  <p class="text-center fw-bold mx-3 mb-0">Ou</p>
+                  <p class="text-center fw-bold mx-3 mb-0">Formulaire</p>
                 </div>
       
                 <!-- Email input -->
                 <div class="form-outline mb-4">
-                  <input type="email" id="form3Example3" class="form-control form-control-lg"
-                    placeholder="Entrer E-mail" />
-                  <label class="form-label" for="form3Example3">Adresse mail</label>
+                  <input type="name" id="form3Example3" class="form-control form-control-lg"
+                    placeholder="Nom" />
+                  <label class="form-label" for="form3Example3">Nom</label>
+                </div>
+
+                <div class="form-outline mb-4">
+                    <input type="last-name" id="form3Example3" class="form-control form-control-lg"
+                      placeholder="Prénom" />
+                    <label class="form-label" for="form3Example3">Prénom</label>
+                </div>
+
+                <div class="form-outline mb-4">
+                    <input type="text" id="form3Example3" class="form-control form-control-lg"
+                      placeholder="Spécialité" />
+                    <label class="form-label" for="form3Example3">Spécialité</label>
+                </div>
+
+                <div class="form-outline mb-4">
+                    <input type="text" id="form3Example3" class="form-control form-control-lg"
+                      placeholder="Lieu de travail" />
+                    <label class="form-label" for="form3Example3">Lieu de travail</label>
+                </div>
+
+                <div class="form-outline mb-4">
+                    <input type="phone-number" id="form3Example3" class="form-control form-control-lg"
+                      placeholder="Numéro de Téléphone" />
+                    <label class="form-label" for="form3Example3">Numéro de Téléphone</label>
+                </div>
+
+                <div class="form-outline mb-4">
+                    <input type="email" id="form3Example3" class="form-control form-control-lg"
+                      placeholder="Entrer E-mail" />
+                    <label class="form-label" for="form3Example3">Adresse mail</label>
                 </div>
       
-                <!-- Password input -->
-                <div class="form-outline mb-3">
-                  <input type="password" id="form3Example4" class="form-control form-control-lg"
-                    placeholder="Entre mot de passe" />
-                  <label class="form-label" for="form3Example4">Mot de passe </label>
-                </div>
-      
-                <div class="d-flex justify-content-between align-items-center">
+
+                <!-- <div class="d-flex justify-content-between align-items-center"> -->
                   <!-- Checkbox -->
-                  <div class="form-check mb-0">
+                  <!-- <div class="form-check mb-0">
                     <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3" />
                     <label class="form-check-label" for="form2Example3">
                       Se souvenire de moi
                     </label>
                   </div>
                   <a href="#!" class="text-body">Mot de passe oublier?</a>
-                </div>
+                </div> -->
       
                 <div class="text-center text-lg-start mt-4 pt-2">
-                  <button type="button" class="btn btn-primary btn-lg"
-                    style="padding-left: 2.5rem; padding-right: 2.5rem;">Connexion</button>
-                  <p class="small fw-bold mt-2 pt-1 mb-0">Vous n'avez pas de compte? <a href="#!"
-                      class="link-danger">S'enrégistrer</a></p>
+                  <button type="submit" class="btn btn-primary btn-lg"
+                    style="padding-left: 2.5rem; padding-right: 2.5rem;">Envoyer</button>
                 </div>
       
               </form>
@@ -139,10 +165,7 @@
     </section>
 
 
-    
-
-
-       <!-- Footer -->
+          <!-- Footer -->
 <footer class="footer text-center text-lg-start bg-light text-muted">
     <!-- Section: Social media -->
     <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
@@ -207,10 +230,10 @@
               Services
             </h6>
             <p>
-              <a href="#!" class="text-reset">Medecine</a>
+              <a href="http://127.0.0.1:5500/ma_soutenance/medecine.html" class="text-reset">Medecine</a>
             </p>
             <p>
-              <a href="#!" class="text-reset">Pharmacie</a>
+              <a href="http://127.0.0.1:5500/ma_soutenance/pharmacie.html" class="text-reset">Pharmacie</a>
             </p>
             <p>
               <a href="#!" class="text-reset">Assurance Numérique</a>
@@ -268,10 +291,10 @@
     <!-- Section: Links  -->
   
     <!-- Copyright -->
-    <!-- <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
       © 2022 Copyright:
       <a class="text-reset fw-bold" href="#">Servo_tech gabon</a>
-    </div> -->
+    </div>
     <!-- Copyright -->
   </footer>
   <!-- Footer -->
@@ -291,7 +314,12 @@
   
       <!-- <script type="text/javascript" src="https://userlike-cdn-widgets.s3-eu-west-1.amazonaws.com/c0529860633c4d5891019774330d0f2ef8de1d125fb44030be67b2aabe376ca7.js"></script> -->
   
-      <!-- <script async src='https://stackwhats.com/pixel/7b57ccc8cf75edd14fb6e27441cdef'></script> -->
+      <script async src='https://stackwhats.com/pixel/7b57ccc8cf75edd14fb6e27441cdef'></script>
+
+
+
+
+
 
 </body>
 </html>
