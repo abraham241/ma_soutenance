@@ -15,65 +15,66 @@
 
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container">
-              <a class="navbar-brand" href="http://127.0.0.1:5500/ma_soutenance/index.html">LE Dr NUMERIQUE</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <!-- <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Acceuil</a>
-                  </li> -->
-                  <!-- <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li> -->
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Services
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="http://127.0.0.1:5500/ma_soutenance/medecine.html">Médecine</a></li>
-                      <li><a class="dropdown-item" href="http://127.0.0.1:5500/ma_soutenance/pharmacie.html">Pharmacie</a></li>
-                      <li><a class="dropdown-item" href="http://127.0.0.1:5500/ma_soutenance/connexion.html?#pills-login">Assurance Numérique/a></li>
-                      <!-- <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li> -->
-                    </ul>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Accompagnements
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">Accouchement & maternité</a></li>
-                      <li><a class="dropdown-item" href="#">maladies infentiles</a></li>
-                      <li><a class="dropdown-item" href="#">A.V.C</a></li>
-                      <li><a class="dropdown-item" href="#">Cancer Feminin</a></li>
-                      <li><a class="dropdown-item" href="#">Don de sang</a></li>
-                      <!-- <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li> -->
-                    </ul>
-                  </li>
-                  <!-- <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                  </li> -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="http://127.0.0.1:5500/ma_soutenance/index.html"> <img src="Image/mon logo.jpg" style="height:100ps ; width:80px ;" > </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <!-- <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Acceuil</a>
+              </li> -->
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li> -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="medecine.html">Médecine</a></li>
+                  <li><a class="dropdown-item" href="pharmacie.html">Pharmacie</a></li>
+                  <li><a class="dropdown-item" href="#">Assurance numerique</a></li>
+                  <!-- <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li> -->
                 </ul>
-                <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-info" type="submit">Search</button>
-                </form>
-              </div>
-            </div>
-          </nav>
-    </header>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Accompagnements
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Accouchement & maternité</a></li>
+                  <li><a class="dropdown-item" href="#">maladies infentiles</a></li>
+                  <li><a class="dropdown-item" href="#">A.V.C</a></li>
+                  <li><a class="dropdown-item" href="#">Cancer Feminin</a></li>
+                  <li><a class="dropdown-item" href="#">Don de sang</a></li>
+                  <!-- <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                </ul>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li> -->
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="search" value="" onchange="ouvrirPage()"> 
+              <button class="btn btn-outline-info" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+</header>
+
     
     <div class="container" id="contenu" >
       <div class="row">
         <div class="col-md-7">
-          <h1 class="Titre"> Enrégistrez-vous chez le Dr Numérique</h1>
-          <h4 style="color: rgb(7, 29, 49); width: 580px; background-color: rgb(243, 243, 243);">C'est quoi le porte-feuille <strong>Assurence Numérique</strong>?</h4>
+          <h1 class="Titre"> Enrégistrez-vous chez Medic-Gabon </h1>
+          <h4 style="color: rgb(7, 29, 49); width: 580px; background-color: rgb(255, 255, 255);">C'est quoi le porte-feuille <strong>Assurence Numérique</strong>?</h4>
           <p class="texte_droit col-md-11">
             Quas, possimus nulla facere esse doloribus quae excepturi odit ipsam, quibusdam iusto cupiditate exercitationem doloremque necessitatibus deserunt assumenda sit quo? Fuga at amet molestiae rerum necessitatibus accusantium eum libero hic non assumenda aliquid, iusto excepturi, odit laboriosam rem expedita, asperiores tempore placeat veniam eveniet deleniti quae. Dolore earum beatae quasi, suscipit labore officia necessitatibus dignissimos illo impedit delectus temporibus vero quod, quam est officiis blanditiis quo! Modi tempora ea inventore autem, accusamus dignissimos at quae reprehenderit quo quam doloribus unde ducimus vel quis!
           </p>
@@ -105,7 +106,7 @@
           <div class="row">
             <label class="label col-md-2 control-label" >Email</label>
             <div class="col-md-10">
-              <input type="Email" class="form-control" name="Email" placeholder="E-mail" >
+              <input type="Email" class="form-control" name="Email" placeholder="E-mail">
             </div>
           </div>
           <div class="row">
@@ -146,7 +147,7 @@
         <div class="col-8">
           <div class="col">
             <p style=" color:rgb(255, 255, 255)">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut sint dicta cum laudantium voluptatum corporis excepturi assumenda voluptatem maxime doloribus.
+               Plus besion de vous déplacer, aujourd'hui grace à Medic-Gabon vous pourrez vous faire consulter de chez vous. Avoir un specialiste en ligne devient plus facile et accécible. Et de plus vous pouvez recevoir un médecin chez vous à la demande.
             </p>
             <a class="btn btn-primary" href="http://127.0.0.1:5500/ma_soutenance/medecine.html" role="button">Prenez rendez-vous</a>
           </div>
@@ -167,8 +168,8 @@
               <div class="card"style="width: 18rem;" >
                     <img src="Image/e293c03bd4b367efb62c.svg" class="card-img-top" alt="">
                   <div class="car-body">
-                    <h5 class="card-titel" >Obtenez un rendez-vous avec  votre médecin</h5>
-                    <p>Vous êtes directement en  contacte avec votre docteur 24h/24</p> 
+                    <h5 class="card-titel" >Obtenez un rendez-vous avec  un médecin</h5>
+                    <p>Prenez rendez-vous en ligne 24 heures sur 24, pour vous et votre famille . Si nécessaire, vous pouvez facilement reporter les rendez-vous.</p> 
                   </div>
               </div>
           </div>
@@ -178,7 +179,7 @@
                   <img src="Image/equipe.svg" class="card-img-top" alt="">
                   <div class="car-body">
                     <h5 class="card-titel" >Une équipe de professionel près de vous et prête à vous répondre</h5>
-                    <p>Vous êtes directement en  contacte avec votre docteur 24h/24 grace à disponibilité de notre chat en ligne sur tous les canaux </p> 
+                    <p>Recherchez des médecins et des thérapeutes depuis votre région . Ne manquez plus jamais un rendez-vous grâce aux rappels automatiques.</p> 
                   </div>
               </div>
           </div>
@@ -188,7 +189,7 @@
                    <img src="Image/tel.svg" class="card-img-top" alt="">
                   <div class="car-body">
                     <h5 class="card-titel" >Reçevoir vos factures, dossiers et ordonances</h5>
-                   <p>Vous pouvez passer un commande sur vos médicaments ou suivre votre dossier medical 24h/24</p>
+                   <p>Échangez rapidement et en toute sécurité des documents médicaux avec vos médecins et thérapeutes.</p>
                   </div>
               </div>
           </div>    
@@ -205,8 +206,8 @@
     <div class="row ">
       <div class="col-lg-8" style="text-align:start; color: rgb(255, 255, 255);">
         <h2 style="color: rgb(255, 255, 255) ;" >Exeperimentez la téléconsultation</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa nemo pariatur porro aut deserunt velit corrupti placeat quae. Quos doloribus quasi nisi earum odit cupiditate ducimus adipisci unde possimus qui.</p> 
-        <a href="http://127.0.0.1:5500/ma_soutenance/formdoc.html"> <div class="btn btn-light" style="width:280px ;"> Vous êtes medecin ? </div> </a>
+        <p>Consultez dès maintenant un patient par téléconsultation. Ne perdez plus de temps avec des files d’attentes, et conversez avec le praticien de votre choix, en vidéo ou par messagerie instantanée, en quelques clics seulement grâce à Medic-Gabon qui se charge de gérer vos rendez-vous et optimisé votre temps.</p> 
+        <a href="http://127.0.0.1:5500/ma_soutenance/formdoc.html"><div class="btn btn-light" style="width:280px ;"> Vous êtes medecin ? </div> </a>
       </div>
       <div class="col-lg-4">
         <img src="Image/teleconsultation.png" style="height:200px;">
@@ -227,9 +228,10 @@
           </div>
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <h5 class="card-title">Votre santé. Vos données.</h5>
+              <p class="card-text">La protection de votre vie privée est notre priorité absolue et l'une de nos tâches les plus importantes.
+              </p>
+              <p class="card-text"><small class="text-muted">Medic-Gabon</small></p>
             </div>
           </div>
         </div>
@@ -243,8 +245,8 @@
           <div class="col-md-8">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <p class="card-text">Pour que vous puissiez accéder aux rendez-vous gratuits de vos professionnels de la santé à tout moment et n'importe où.</p>
+              <p class="card-text"><small class="text-muted">Medic-Gabon</small></p>
             </div>
           </div>
         </div>
@@ -292,27 +294,20 @@
     </div>
   </section>
 
-  <!-- Section: Links  -->
+
   <section class="">
-    <div class="container text-center text-md-start mt-5">
-      <!-- Grid row -->
-      <div class="row mt-3">
-        <!-- Grid column -->
+    <div class="container text-center text-md-start mt-5">  
+      <div class="row mt-3">      
         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-          <!-- Content -->
           <h6 class="text-uppercase fw-bold mb-4">
-            <i class="fas fa-gem me-3"></i>Le Doc Numérique
+            Medic-Gabon
           </h6>
           <p>
-            Here you can use rows and columns to organize your footer content. Lorem ipsum
-            dolor sit amet, consectetur adipisicing elit.
+            <img src="image/mon logo.jpg" style="height:150px; width: 150px; " >
           </p>
         </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
+>
         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-          <!-- Links -->
           <h6 class="text-uppercase fw-bold mb-4">
             Services
           </h6>
@@ -326,11 +321,8 @@
             <a href="#!" class="text-reset">Assurance Numérique</a>
           </p>
         </div>
-        <!-- Grid column -->
 
-        <!-- Grid column -->
         <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 ">
-          <!-- Links -->
           <h6 class="text-uppercase fw-bold mb-4">
             Accompagnements
           </h6>
@@ -350,11 +342,8 @@
             <a href="#!" class="text-reset">Don de sang</a>
           </p>
         </div>
-        <!-- Grid column -->
 
-        <!-- Grid column -->
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-          <!-- Links -->
           <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
           <p><i class="fas fa-home me-3"></i> Lambaréné- Gabon</p>
           <p>
@@ -364,12 +353,10 @@
           <p><i class="fas fa-phone me-3"></i> +241-77-17-28-20</p>
           <p><i class="fas fa-print me-3"></i> +241-66-77-81-06</p>
         </div>
-        <!-- Grid column -->
+        
       </div>
-      <!-- Grid row -->
     </div>
   </section>
-  <!-- Section: Links  -->
 
   <!-- Copyright -->
   <!-- <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
@@ -378,11 +365,6 @@
   </div> -->
   <!-- Copyright -->
 </footer>
-<!-- Footer -->
-      
-    </div>
-    <!-- End of .container -->
-    </div>
     
 
 
@@ -393,8 +375,8 @@
     <!-- je vais mettre le jqry -->
     <script src="js/jquery.js" ></script>
 
-    <!-- <script type="text/javascript" src="https://userlike-cdn-widgets.s3-eu-west-1.amazonaws.com/c0529860633c4d5891019774330d0f2ef8de1d125fb44030be67b2aabe376ca7.js"></script>
-    <script async src='https://stackwhats.com/pixel/7b57ccc8cf75edd14fb6e27441cdef'></script> -->
+     <script type="text/javascript" src="https://userlike-cdn-widgets.s3-eu-west-1.amazonaws.com/c0529860633c4d5891019774330d0f2ef8de1d125fb44030be67b2aabe376ca7.js"></script>
+    <!-- <script async src='https://stackwhats.com/pixel/7b57ccc8cf75edd14fb6e27441cdef'></script>  -->
 
     <!-- chathub -->
      <!-- Start of HubSpot Embed Code -->
