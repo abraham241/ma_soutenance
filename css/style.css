@@ -51,9 +51,10 @@ small{
 .col-md-5{
   margin-top: 80px;
   margin-bottom: 80px;
-  box-shadow: -1px 1px 60px 10px ;
-  background: rgb(0,0,0,0.4);
+  box-shadow: -0.8px 1px 60px 6px ;
+  background: rgba(0, 0, 0, 0.527);
   height: 490px;
+  border-radius: 15px 15px 15px 15px;
 }
 
 .btn-info{
