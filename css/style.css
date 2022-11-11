@@ -4,8 +4,8 @@
 }
 
 body{
-   /* background-image: url(/Image/Doc_numérique1.jpg); */
-   background-color: rgb(93, 212, 233);
+   /* background-image: url(Image/bébé.jpg); */
+   /* background-color: rgb(125, 163, 170); */
    background-size: cover;
    background-attachment: fixed;
    overflow-x: hidden;
@@ -29,7 +29,7 @@ h5 {
 }
 
 .texte_droit{
-  color: white;
+  color: rgb(65, 62, 62);
 }
 
 .col-md-7{
@@ -51,7 +51,7 @@ small{
 .col-md-5{
   margin-top: 80px;
   margin-bottom: 80px;
-  box-shadow: -0.8px 1px 60px 6px ;
+  /* box-shadow: -0.8px 1px 60px 6px ; */
   background: rgba(0, 0, 0, 0.527);
   height: 490px;
   border-radius: 15px 15px 15px 15px;
@@ -63,6 +63,7 @@ small{
   width: 120px;
   margin-left: 80px;
   color: white;
+  box-shadow: 1px 1.5px 1.5px 1px;
 }
 
 .control-label{
@@ -93,4 +94,12 @@ small{
 
 .car-body{
   margin: 15px 5px 20px 15px;
+}
+
+.btn-light{
+  box-shadow: 1px 1.5px 1.5px 1px;
+}
+
+.btn-primary {
+  box-shadow: 1px 1.5px 1.5px 1px;
 }
